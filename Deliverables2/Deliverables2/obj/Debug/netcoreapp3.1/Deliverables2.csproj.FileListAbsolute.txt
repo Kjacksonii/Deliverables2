@@ -1,0 +1,12 @@
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.csprojAssemblyReference.cache
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.AssemblyInfoInputs.cache
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.AssemblyInfo.cs
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.csproj.CoreCompileInputs.cache
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/bin/Debug/netcoreapp3.1/Deliverables2.deps.json
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/bin/Debug/netcoreapp3.1/Deliverables2.runtimeconfig.json
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/bin/Debug/netcoreapp3.1/Deliverables2.runtimeconfig.dev.json
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/bin/Debug/netcoreapp3.1/Deliverables2.dll
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/bin/Debug/netcoreapp3.1/Deliverables2.pdb
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.dll
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.pdb
+/Users/kevinjacksonii/Projects/Deliverables2/Deliverables2/obj/Debug/netcoreapp3.1/Deliverables2.genruntimeconfig.cache
