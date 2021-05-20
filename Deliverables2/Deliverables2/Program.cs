@@ -6,40 +6,70 @@ namespace Deliverables2
     {
         static void Main(string[] args)
         {
-
             string userResponse;
-            //string author = hello;
-            Console.WriteLine("What do you want to say to the bot?");
+            bool hello = true;
+            bool sup = true;
+            bool hellothere = true;
 
-            userResponse = Console.ReadLine();
-            if (userResponse.ToLower() == "hello")
+            do
             {
 
-                Console.WriteLine("Hi good to see you");
-                Console.WriteLine("What else do want to say?");
-            }
+                Console.WriteLine("What do you want to say to the bot?");
 
-            userResponse = Console.ReadLine();
-            if (userResponse.ToLower() == "sup")
-            {
-                Console.WriteLine("I am good ");
-                Console.WriteLine("What else do want to say?");
-
-            }
-             userResponse = Console.ReadLine();
-             if (userResponse.ToLower() == "hello there")
-            { 
-                Console.WriteLine("General Kenobi");
-                Console.WriteLine("What else do want to say?");
                 userResponse = Console.ReadLine();
+                if (userResponse == "hello")
+                {
+                    if (hello)
+                    {
+                        Console.WriteLine("Hi good to see you");
+                        hello = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("I’m sorry but you have already said that");
+                    }
 
-            }
- 
-            else _ = userResponse.ToLower() == "bye";
-            {
-                Console.WriteLine("Good bye!");
-                System.Environment.Exit(1);
-            }
+                }
+
+
+                if (userResponse == "sup")
+                {
+                    if (hello)
+                    {
+                        Console.WriteLine("I am good");
+                        sup = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("I’m sorry but you have already said that");
+                    }
+
+                }
+
+                if (userResponse == "hello there")
+                {
+
+                    if (hellothere)
+                    {
+                        Console.WriteLine("General Kenobi");
+                        hellothere = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("I’m sorry but you have already said that");
+                    }
+
+                }
+
+                if (userResponse == "bye")
+                {
+                    Console.WriteLine("Good bye!");
+                    System.Environment.Exit(1);
+                }
+
+                Console.WriteLine("What else do want to say? (yes/no)");
+                userResponse = Console.ReadLine();
+            } while (userResponse.ToLower() == "yes");
         }
     }
 }
